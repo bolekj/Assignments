@@ -66,7 +66,6 @@ grep ">" test.fa| cut -d, -f1 | sed "s/PREDICTED://g" |awk '{print $2,$3}
 sort identifiers.txt | uniq -c
 
 **Question 15**
-nano integers.sh
 ```bash=
 for integers in $(1..30)
 do
